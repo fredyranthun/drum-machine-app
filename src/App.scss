@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+$babyBlue: #C3E0E5;
+$darkBlue: #274472;
+$blueGray: #5885AF;
+$midnightBlue: #41729F;
+
+$buttonSize: 100px;
+
+body {
+  background: radial-gradient(circle, $babyBlue 0%, $blueGray 100%);
+}
+
+.App {
+  text-align: center;
+  color: $darkBlue;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin: 100px auto;
+}
+.switch {
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
